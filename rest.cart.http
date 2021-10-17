@@ -1,5 +1,5 @@
 ### ADICIONAR ITEM NO CARRINHO
-POST http://localhost:8080/cart/1 
+POST http://localhost:8082/cart/1 
 Content-Type: application/json
 
 {
@@ -8,7 +8,7 @@ Content-Type: application/json
 }
 
 ### PEGAR O CARRINHO
-GET http://localhost:8080/cart/1 
+GET http://localhost:8082/cart/1 
 
 ### DELETAR O CARRINHO
-DELETE http://localhost:8080/cart/1 
+DELETE http://localhost:8082/cart/1 

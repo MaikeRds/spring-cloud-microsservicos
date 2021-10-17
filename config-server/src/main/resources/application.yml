@@ -6,4 +6,6 @@ spring:
     config:
       server:
         git:
+          uri: https://github.com/MaikeRds/spring-cloud-microsservicos-config
+  profile:
 

@@ -23,6 +23,13 @@ services:
       ELASTICSEARCH_URL: http://elasticsearch:9200
     depends_on:
       - elasticsearch
+
+  redis:
+    container_name: "redis"
+    image: redis:3.0.1
+    ports:
+      - "6379:6379"
+
 volumes:
   esdata:
     driver: local
