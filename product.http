@@ -1,0 +1,18 @@
+###
+POST http://localhost:8080/product 
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "TV2",
+  "amount": 10
+}
+
+###
+GET http://localhost:8080/product/1 
+Content-Type: application/json
+
+### Listar produto Elastic
+GET http://localhost:9200/product/_doc/1
+Content-Type: application/json
+

@@ -1,0 +1,14 @@
+### ADICIONAR ITEM NO CARRINHO
+POST http://localhost:8080/cart/1 
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "amount": 10
+}
+
+### PEGAR O CARRINHO
+GET http://localhost:8080/cart/1 
+
+### DELETAR O CARRINHO
+DELETE http://localhost:8080/cart/1 
